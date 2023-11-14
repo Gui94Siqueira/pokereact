@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
   }
-  
+
   .logo h1 {
     margin-left: 0.5em;
   }
@@ -38,4 +38,16 @@
   
   .link_items a:hover {
     border-color: #fff;
+  }
+
+  @media screen and (max-width: 750px) {
+    .logo {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .hide {
+      display: none;
+    }
   }

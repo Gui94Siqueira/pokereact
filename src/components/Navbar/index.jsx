@@ -68,7 +68,7 @@ export default function Navbar({ pokemonFilter, hideSearch }) {
                 <StyledInputBase placeholder="Pesquisando..." inputProps={{ "aria-label": "search" }} />
               </Search>
             )}
-        <li>
+        <li className="hide">
           <a href="/">
             Home
           </a>
